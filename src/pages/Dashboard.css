@@ -1,0 +1,68 @@
+.test-container1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 70vh;
+    background: url('360_F_296903998_Ah2JuTEdk8BwTQurkmLC6bMnhNT7aiLa.jpg');
+    
+  }
+  
+  
+  .service1{
+    
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0;
+    flex-wrap: wrap;
+  }
+  .service1 .servicebox1{
+  position:relative;
+  width: 260px;
+  height: 250px;
+  background: goldenrod;
+  box-shadow:inset 5px 5px 5px rgb(120, 120, 228),
+              inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+               5px 5px 5px #1e4a77,
+                -5px -5px 5px #eeeeee;
+                border-radius: 15px;
+                margin: 25px;
+  }
+  .service1 .servicebox1 .icon1{
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    background: whitesmoke;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .service1 .servicebox1 .icon1 .content1{
+  padding: 20px 20px;
+
+
+  text-align: center;
+  }
+  .service1 .servicebox1 .icon1 .content1 i{
+     font-size: 50px;
+     color: #001F3F;
+     margin-bottom: 10px;
+  }
+  .service1.servicebox1.icon1 .content1 h2{
+    position: absolute;
+    top: -10px;
+    right: 30px;
+    margin-bottom: 10px;
+    font-size: 8em;
+    color: #001F3F;
+  }
+  .service1 .servicebox1:hover .icon1{
+    transform: translateY(-40px);
+    box-shadow: 0 10px 20px #dbdbdb;
+    background: linear-gradient(45deg,#146dcc,brown);
+    color: white;
+  }

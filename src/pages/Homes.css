@@ -1,0 +1,72 @@
+.button-container{
+    width: 100%;
+    margin: 20px 0px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.button-container button{
+    padding: 8px 16px;
+    background: transparent;
+    border: 2px solid #001F3F;
+    color:#001F3F;
+outline: none;
+cursor: pointer;
+border-radius: 4px;
+transition: all ease-in 0.4s;
+}
+.button-container .active{
+    padding: 8px 16px;
+    background: #001F3F;
+    border: 2px solid whitesmoke;
+    color: white;
+    outline: none;
+    font-weight: bold;
+    border-radius: 4px;
+    transition: all ease-in 0.4s;
+}
+.add-record-container,
+.view-record-container,
+.update-record-container,
+.delete-record-container{
+    margin: 20px auto;
+    width: 1150px;
+    height: 500px;
+    display: flex;
+    flex-direction: row !important;
+    background: #ffffff;
+    box-shadow: 12px 12px 12px 12px #dbdbdb;
+
+
+}
+
+.add{
+    width: 600px;
+    height: 500px;
+    background: url('pngtree-diwali-sale-background-with-diya-and-decorative-design-image_14004306.jpg');
+}
+.view{
+    width: 600px;
+    height: 500px;
+    background: url('abstract.avif');
+}
+.update{
+    width: 600px;
+    margin-top: 50px;
+    height: 400px;
+    background: url('istockphoto-1339043407-612x612.jpg');
+}
+.removeupdate p,
+.removeview p,
+.remove p{
+    width: 550px !important;
+    height: 500px;
+    align-items: justify;
+    justify-content: justify;
+    text-align: justify;
+    padding: 23px;
+    font-size: 18px;
+    line-height: 28px;
+}

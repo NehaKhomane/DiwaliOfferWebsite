@@ -1,0 +1,217 @@
+
+.header{
+  width: 100%;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0px 5%;
+  background: #001F3F;
+  color: white;
+
+}.header .links{
+  display: flex;
+  text-align: center;
+  margin-top: 0px;
+}
+.header .links a{
+  text-decoration: none;
+  margin-left: 40px;
+  color: white;
+  transition: all ease-in 0.4s;
+}
+
+.header .links a:hover{
+  transition: all ease-in-out 0.4s;
+  transform:  translate(5px);
+  color: lightblue;
+  
+}
+.header button{
+  padding: 6px 20px;
+  background-color: transparent;
+  border: 2px solid white;
+  color: white;
+  margin-left: 30px;
+margin-top: -10px;
+  font-size: 16px;
+  border-radius: 4px;
+}
+.Boxes{
+  width: 100%;
+  height: 550px;
+  align-items: start;
+  display: flex;
+  justify-content: start;
+  background: url('pages/8d0696106835171.5f9fea5e23578.jpg');
+}
+.box{
+  width: 50%;
+  height: 60px;
+  display: flex;
+  margin: 25px auto;
+  margin-left: 550px;
+  
+}
+ h3{
+  width: 100%;
+  height: 70px;
+  align-items: center;
+   background: #001F3F;
+   border-radius: 8px;
+   padding-top: 20px;
+text-align: center;
+font-size: 22px;
+justify-content: center;
+  color: white;
+}
+strong{
+  margin-left: 25px;
+  font-size: 27px;
+}
+.header i{
+  font-size: 30px;
+  margin-right: 10px;
+}
+.test-container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  background: #001F3F;
+}
+.service{
+  
+  width: 1200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px 0;
+  flex-wrap: wrap;
+}
+.service .servicebox{
+position:relative;
+width: 450px;
+height: 320px;
+background: white;
+box-shadow:inset 5px 5px 5px rgb(120, 120, 228),
+            inset -5px -5px 5px rgba(255, 255, 255, 0.5),
+             5px 5px 5px #1e4a77,
+              -5px -5px 5px #eeeeee;
+              border-radius: 15px;
+              margin: 45px;
+}
+.service .servicebox .icon{
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: 20px;
+  bottom: 20px;
+  background: whitesmoke;
+  border-radius: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.service .servicebox .icon .content{
+padding: 20px;
+text-align: center;
+}
+.service.servicebox.icon .content h2{
+  position: absolute;
+  top: -10px;
+  right: 30px;
+  font-size: 8em;
+  color: #001F3F;
+}
+.service .servicebox:hover .icon{
+  transform: translateY(-50px);
+  box-shadow: 0 10px 20px #dbdbdb;
+  background: linear-gradient(45deg,#5f8fc2,#ffffff);
+}
+h5{
+  color: brown;
+  padding-top: -40px;
+  margin-bottom: 10px;
+}
+.not-found-container{
+  width: 50%;
+  height: 360px;
+  background:url('pages/404-error.avif');
+  display: flex;
+  align-items: center;
+  margin-left: 400px;
+  
+  justify-content: start;
+  flex-direction: column;
+
+}
+.login-container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  width: 100%;
+  height: 500px;
+  -webkit-background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  background: url('pages/pngtree-happy-diwali-sale-is-on-illustration-of-indian-sweets-and-oil-image_14005431.jpg');
+}
+.input-field{
+  width: 500px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  flex-direction: column;
+ margin: 20px 0;
+  
+
+}
+form{
+  padding: 20px 20px;
+  background:rgba(255, 255, 255, 0.4);
+  border-radius: 10px;
+}
+form .title h2{
+  text-align: center;
+  font-family: Poppins;
+  font-weight: 899;
+  font-size: 30px;
+  
+  color: #1e4a77;
+}
+.input-field input{
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #5f8fc2;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+  
+  background-color: #1e4a77;
+  font-size: 1rem;
+}
+.input-field input:focus-within{
+  box-shadow:  2px 2px 2px 2px #467db8;
+  border: none;
+}
+form button{
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  margin-left: 170px;
+  width: 150px;
+  border: none;
+  font-size: 16px;
+  color: white;
+  font-weight: 400;
+  background: #1e4a77;
+  outline: none;
+}
+form span{
+  color:gold;
+  margin-top: 3px;
+}
